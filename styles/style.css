@@ -1,0 +1,58 @@
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #000000;
+}
+
+/* Хедер */
+header{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 0 64px;
+}
+
+a{
+    text-decoration: none;
+    color: #cacaca;
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-a-li:hover{
+    color: #2A4B81;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-li{
+    padding-right: 35px;
+    list-style-type: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.navbar-li:last-child{
+    padding: 0;
+}
+
+/* Main */
+.intro{
+    height: 657px;
+    background: url(/resources/intro.png);
+    opacity: 0.85;
+    border-radius: 0px 0px 440px 440px;
+    background-repeat: no-repeat;
+}
+
