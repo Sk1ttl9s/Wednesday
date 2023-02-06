@@ -1,6 +1,5 @@
 /* For all site */
 body{
-    max-width: 1920px;
     margin: 0 auto;
     background-color: #181818;
     color:aliceblue;
@@ -17,8 +16,15 @@ h1, h2, h3, h4, h5, h6{
     margin: 0;
 }
 
+/* Container */
+.container{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
 /* Heder */
-header{ 
+.header{ 
     width: 100%;
     position: fixed;
     display: flex;
@@ -27,16 +33,21 @@ header{
     background-color: black;
 }
 
-a{
+.a{
     text-decoration: none;
     color: #cacaca;
 }
 
 
-ul{
+.ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.nav-a-li{
+    text-decoration: none;
+    color: #cacaca;
 }
 
 .nav-a-li:hover{
@@ -66,8 +77,12 @@ ul{
 
 /* Intro */
 .intro{
+    width: 100%;
+    margin: 0 auto;
     height: 1022px;
-    background: url(https://raw.githubusercontent.com/Sk1ttl9s/Wednesday/main/resources/intro.png);
+    background: url(/resources/intro.png);
     background-repeat: no-repeat;
+    
 }
 
+/* https://raw.githubusercontent.com/Sk1ttl9s/Wednesday/main/resources/intro.png */
