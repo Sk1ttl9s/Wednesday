@@ -64,7 +64,7 @@ ul{
 /* Intro */
 .intro{
     height: 657px;
-    background: url(/resources/intro.png);
+    background: url(https://raw.githubusercontent.com/Sk1ttl9s/Wednesday/main/resources/intro.png);
     opacity: 0.85;
     border-radius: 0px 0px 440px 440px;
     background-repeat: no-repeat;
