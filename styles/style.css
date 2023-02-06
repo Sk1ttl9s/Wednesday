@@ -1,12 +1,12 @@
+/* For all site */
 body{
-    max-width: 1440px;
+    max-width: 1920px;
     margin: 0 auto;
-    background-color: #000000;
+    background-color: #181818;
     color:aliceblue;
     font-family: 'Times New Roman', Times, serif;
 }
 
-/* For all site */
 *,
 *:before,
 *:after{
@@ -22,6 +22,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 0 64px;
+    background-color: black;
 }
 
 a{
@@ -63,10 +64,8 @@ ul{
 
 /* Intro */
 .intro{
-    height: 657px;
+    height: 1022px;
     background: url(https://raw.githubusercontent.com/Sk1ttl9s/Wednesday/main/resources/intro.png);
-    opacity: 0.85;
-    border-radius: 0px 0px 440px 440px;
     background-repeat: no-repeat;
 }
 
