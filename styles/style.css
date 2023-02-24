@@ -3,7 +3,7 @@ body{
     margin: 0 auto;
     background-color: #181818;
     color:aliceblue;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 *,
@@ -16,20 +16,24 @@ h1, h2, h3, h4, h5, h6{
     margin: 0;
 }
 
+p {
+    margin: 0;
+}
+
 /* Container */
 .container{
     width: 100%;
-    max-width: 1600px;
+    max-width: 1620px;
     margin: 0 auto;
 }
 
-/* Heder */
+/* Header */
 .header{ 
     width: 100%;
     position: fixed;
     display: flex;
     justify-content: space-between;
-    padding: 0 64px;
+    padding: 0 150px;
     background-color: black;
 }
 
@@ -48,6 +52,8 @@ h1, h2, h3, h4, h5, h6{
 .nav-a-li{
     text-decoration: none;
     color: #cacaca;
+    transition: opacity .1s linear, 
+    color .1s linear;
 }
 
 .nav-a-li:hover{
@@ -62,7 +68,6 @@ h1, h2, h3, h4, h5, h6{
 
 .navbar-li{
     list-style-type: none;
-    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 17px;
@@ -77,11 +82,46 @@ h1, h2, h3, h4, h5, h6{
 
 /* Intro */
 .intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
-    margin: 0 auto;
-    height: 1022px;
+    height: 100vh;
     background: url(https://raw.githubusercontent.com/Sk1ttl9s/Wednesday/main/resources/intro.png);
-    background-repeat: no-repeat;
-    
+    background-repeat: cover;
 }
 
+
+
+/* Section */
+.section{
+    margin: 20px 0;
+}
+
+.section-header{
+    width: 100%;
+    max-width: 1620px;
+
+    text-align: left;
+}
+
+.section-header:before{
+    content: "";
+    display: block;
+    background-color: #fff;
+    width: 1620px;
+    height: 2px;
+    position: absolute;
+
+}
+
+.section-img{
+    padding: 20px 0 20px 0;
+}
+
+.section-title{
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    font-style: normal;
+}
